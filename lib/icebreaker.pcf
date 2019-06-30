@@ -1,0 +1,55 @@
+# 12 MHz clock
+set_io -nowarn clk_12mhz    35
+
+# UART
+set_io -nowarn uart_rx      6
+set_io -nowarn uart_tx      9
+
+# LEDs and Buttons
+set_io -nowarn button       10
+set_io -nowarn led_green    37
+set_io -nowarn led_red      11
+
+# RGB LEDs
+set_io -nowarn led_r        39
+set_io -nowarn led_g        40
+set_io -nowarn led_b        41
+
+# SPI Flash
+set_io -nowarn flash_cs     16
+set_io -nowarn flash_clk    15
+set_io -nowarn flash_io[0]  14
+set_io -nowarn flash_io[1]  17
+set_io -nowarn flash_io[2]  12
+set_io -nowarn flash_io[3]  13
+
+# PMOD 1a
+set_io -nowarn pmod_1a[0]   4
+set_io -nowarn pmod_1a[1]   2
+set_io -nowarn pmod_1a[2]   47
+set_io -nowarn pmod_1a[3]   45
+set_io -nowarn pmod_1a[4]   3
+set_io -nowarn pmod_1a[5]   48
+set_io -nowarn pmod_1a[6]   46
+set_io -nowarn pmod_1a[7]   44
+
+# PMOD 1b
+set_io -nowarn pmod_1b[0]   43
+set_io -nowarn pmod_1b[1]   38
+set_io -nowarn pmod_1b[2]   34
+set_io -nowarn pmod_1b[3]   31
+set_io -nowarn pmod_1b[4]   42
+set_io -nowarn pmod_1b[5]   36
+set_io -nowarn pmod_1b[6]   32
+set_io -nowarn pmod_1b[7]   28
+
+# PMOD 2
+set_io -nowarn pmod_2[0]    27
+set_io -nowarn pmod_2[1]    25
+set_io -nowarn pmod_2[2]    21
+set_io -nowarn pmod_2[3]    19
+set_io -nowarn pmod_2[4]    26
+set_io -nowarn pmod_2[5]    23
+set_io -nowarn pmod_2[6]    20
+set_io -nowarn pmod_2[7]    18
+
