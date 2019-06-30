@@ -9,5 +9,6 @@
 *.vcd
 *.svf
 *.bak
+*.vvp
 
 a.out

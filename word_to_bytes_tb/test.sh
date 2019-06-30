@@ -1,4 +1,4 @@
 #!/bin/sh
 set -ev
-iverilog -o tb *.v
-./tb
+iverilog -o tb.vvp *.v
+./tb.vvp
