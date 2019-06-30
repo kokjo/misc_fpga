@@ -6,4 +6,8 @@
 *.json
 *.vvp
 *.config
+*.vcd
+*.svf
+*.bak
+
 a.out
