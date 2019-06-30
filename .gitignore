@@ -1,0 +1,9 @@
+*.bin
+*.tb
+*.asc
+*.hex
+*.log
+*.json
+*.vvp
+*.config
+a.out
